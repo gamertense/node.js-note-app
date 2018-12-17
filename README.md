@@ -1,6 +1,7 @@
 A simple note app lesson learned from Udemy course.
 
 ## Dependency
+Notes are recorded in `notes-data.json`
 ```
 npm install yargs --save
 ``` 
@@ -11,6 +12,10 @@ yarn add yargs
 
 
 ## Commands
+### Help Command
+* List all commands `node app.js --help`
+* Add/Read/Remove help command `node app.js [add/read/remove] --help`
+### Note Manipulation Command
 * To list all notes: 
 ```
 node app.js list
